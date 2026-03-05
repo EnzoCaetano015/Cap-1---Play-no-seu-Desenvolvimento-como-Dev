@@ -184,10 +184,10 @@ def atualizar_registro():
         print("Nenhum registro para atualizar.")
         return
 
-    print("0) Voltar ao menu")
+    print("Pressione ENTER para voltar ao menu")
     idx_str = input(
-        "Digite o índice do registro a atualizar (ou 0 para voltar): ").strip()
-    if idx_str == "0":
+        "Digite o índice do registro a atualizar: ").strip()
+    if idx_str == "":
         print("Voltando ao menu...")
         return
     try:
@@ -234,10 +234,10 @@ def deletar_registro():
         print("Nenhum registro para deletar.")
         return
 
-    print("0) Voltar ao menu")
+    print("Pressione ENTER para voltar ao menu")
     idx_str = input(
-        "Digite o índice do registro a deletar (ou 0 para voltar): ").strip()
-    if idx_str == "0":
+        "Digite o índice do registro a deletar: ").strip()
+    if idx_str == "":
         print("Voltando ao menu...")
         return
     try:
