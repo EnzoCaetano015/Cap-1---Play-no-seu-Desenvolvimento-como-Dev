@@ -1,0 +1,13 @@
+FarmTech Solutions - Relatório Estatístico
+Arquivo analisado: farmtech-solutions/relatorios/csv/dados_fazenda.csv 
+
+=== Estatística Geral ===
+  n_registros media_area_ha desvio_area_ha media_insumo_total desvio_insumo_total
+1           2     0.0020135    0.001150463            0.00366         0.005006316
+
+=== Estatística por Cultura ===
+# A tibble: 2 x 6
+  cultura     n media_area_ha desvio_area_ha media_insumo_total desvio_insumo_total
+  <chr>   <int>         <dbl>          <dbl>              <dbl>               <dbl>
+1 CAFE        1       0.00283             NA            0.00012                  NA
+2 CANA        1       0.0012              NA            0.0072                   NA
